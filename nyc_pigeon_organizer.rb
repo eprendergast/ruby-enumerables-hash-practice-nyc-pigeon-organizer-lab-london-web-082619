@@ -21,7 +21,17 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  #define empty hash to hold pigeon data
+  #iterate through data, adding a key to the new hash for any unique pigeon name
+  #the value for each new name key should be equal to {:color => [], :gender => [], :lives => []}
+  #after all names have been set as keys, iterate through the data to insert the appropriate attributes for each pigeon
+pigeon_list = {
+  "NAME" => {
+    :color => [],
+    :gender => [],
+    :lives => []
+    }
+},
 end
 
 #output
